@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  button {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /* Search Results Page Styles */
+  .results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Descriptive Page Styles */
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* ...Previous CSS code... */
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .result-box {
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-details {
+    text-align: left;
+  }
+  
+  /* ...Previous CSS code... */
+  /* ...Previous CSS code... */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* ...Previous CSS code... */
+  
